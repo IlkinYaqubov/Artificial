@@ -1,0 +1,54 @@
+
+:root
+
+
+.fa-bars{
+    display: none;
+}
+
+
+@media(max-width:768px){
+.nav-links{
+    display: none;
+}
+.fa-bars{
+    display: flex;
+    color: antiquewhite;
+}
+
+.logo{
+    width: 150px;
+}
+
+.logo img {
+    width: 100%;   
+}
+
+.logo h2{
+    margin-top: 30px;
+}
+
+
+.daxil a{
+ font-size: 16px; 
+ padding: 10px;
+
+
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section .info-left{
+    padding-right: 350px;
+}
+
+section .info-left .bt-start .bt-play{
+    display: flex;
+    justify-content:space-around;
+}
+
+}
